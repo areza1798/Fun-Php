@@ -7,8 +7,8 @@
 BSD 2-Clause
 */
 ob_start();
-define('API_KEY','XXXX:XXXX:XXXX:XXXX'); //محل قرار گیری توکن
-$admin =  "XXXXXX"; // محل قرار گیری ایدی ادمین
+define('API_KEY','413541771:AAHySzmvq3-pF1KhyKkKWVncI1mJ7iCG0vI'); //محل قرار گیری توکن
+$admin =  "302300853"; // محل قرار گیری ایدی ادمین
 $update = json_decode(file_get_contents('php://input'));
 $from_id = $update->message->from->id;
 $chat_id = $update->message->chat->id;
